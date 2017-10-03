@@ -2,6 +2,8 @@ html {
   font-family: Helvetica;
 }
 
+
+/* Header of the page */
 .header {
   font-size: 100px;
   font-weight: bold;
@@ -16,17 +18,24 @@ h2 {
   color: white;
 }
 
-#brushes {
-  background-color: mediumspringgreen;
-}
-#frames {
-  background-color: lightcoral;
-}
-#paint {
-  background-color: skyblue;
-}
-
 .blue {
   font-weight: bold;
   color: blue;
+}
+
+/* Section Brushes */
+#brushes {
+  background-color: mediumspringgreen;
+}
+
+
+/* Section Frames */
+#frames {
+  background-color: lightcoral;
+}
+
+
+/* Section Paint */
+#paint {
+  background-color: skyblue;
 }
